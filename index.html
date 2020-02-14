@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="js/index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -52,8 +53,8 @@
             <div class="card-header">Header</div>
             <div class="card-body">
               <h5 class="card-title">Dark card title</h5>
-              <div class="col-md-6 right">
-                <div class="panel col-sm-6 offset-sm-6">
+              <!-- <div class="col-md-6 right">
+                <div class="panel col-sm-6 offset-sm-6"> -->
                         <div class="form-group">
                           <label for="year" class="labels">Year</label>
                           <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="2020">
@@ -64,17 +65,16 @@
                         </div>
                         <div class="form-group">
                           <label for="monthDay" class="labels">Day of month</label>
-                          <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="31">
+                          <input type="number" placeholder="Enter the day of the month" class="form-control" id="day" required min="0" max="31">
                         </div>
                         <form class="radio-button">
-                          <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                          <input type="radio" class="genders labels" value="male" id="gender" name="rads" required>Male
                           <br>
-                          <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                          <input type="radio" class="genders labels" value="female" id="gender" name="rads" required>Female
                         </form>
                         <br>
-                        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button>
-                        </a>
-                        <h1 id="result"></h1>
+                        <button type="button" name="button" class="btn btn-primary mb-2" onclick="giveAkanName()">Calculate Birthday</button>
+                        
                 </div>
               </div>
             </div>
