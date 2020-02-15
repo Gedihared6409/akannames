@@ -21,12 +21,11 @@ body{
 nav{
     align-items: center;
 }
-/* body{
-    background-image: url(https://bit.ly/2ULYUfd);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-} */
+.gedi{
+    height:300px ;
+    width:700px ;
+    padding-left: 600px;
+}
 
 
 
