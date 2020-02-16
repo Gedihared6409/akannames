@@ -18,4 +18,37 @@ the website does not need any other software to display
 just only a data bundle
 
 
+## Deployment
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+Fork the repo
+* Create a new branch (git checkout -b improve-feature)
+* Make the appropriate changes in the files
+* Add changes to reflect the changes made
+* Commit your changes (git commit -am 'Improve feature')
+* Push to the branch (git push origin improve-feature)
+* Create a Pull Request
+
+## Built With
+
+* HTML
+* CSS
+
+
+
+## Authors
+
+ * not forked the and there where no other contributer apart from me
+
+## Acknowledgments
+
+* Best to w3schools
+* also udacity
+* 
+
+
+# [LICENSE.md](LICENSE) 
+MIT [ALI](ALI) 
 
