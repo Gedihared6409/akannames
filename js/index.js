@@ -35,19 +35,18 @@ function calculateDay(){
     }
 }
 
-//main caller func
+
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
-      console.log("The function runs");//Test chackDayOfWeek function
+      console.log("The function runs");
 }
 
-//arrays
+
 let daysOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
-//get selected radio button
 function checkGender(){
   var gen = document.getElementsByName("rads");
   if(gen[0].checked == true){
@@ -55,7 +54,7 @@ function checkGender(){
   }else if(gen[1].checked == true){
       var gender = "female";
   }else {
-    console.log("pass");//Test the radio buttons
+    console.log("pass");
   }
     switch(gender){
         case gender = "male":
