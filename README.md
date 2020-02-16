@@ -50,6 +50,9 @@ Fork the repo
 * also udacity
 * 
 
+## contacts
+* gmail adress: gediali019@gmail.com
+* phone number : 1234567890
 
 # [LICENSE.md](LICENSE) 
 MIT [ALI](ALI) 
