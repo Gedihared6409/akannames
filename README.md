@@ -68,6 +68,7 @@ Fork the repo
 ## contacts
 * gmail adress: gediali019@gmail.com
 * phone number : 1234567890
+* fax : 24562852
 
 # [LICENSE.md](LICENSE) 
 MIT [ALI](ALI) 
