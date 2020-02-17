@@ -49,13 +49,14 @@ let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 function checkGender(){
   var gen = document.getElementsByName("rads");
-  if(gen[0].checked == true){
+  if(gen[0].checked == true && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
       var gender = "male";
-  }else if(gen[1].checked == true){
+  }else if(gen[1].checked == true && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
       var gender = "female";
-  }else {
-    console.log("pass");
+  }else if (gen[0].checked == false || year < 0 || month < 0 && month > 13 || day < 0 && day > 32){
+    alert ("incorrect input");
   }
+  
     switch(gender){
         case gender = "male":
               switch(day){
